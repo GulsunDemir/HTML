@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM YAPISI</title>
+</head>
+
+<body>
+    <form method="post" action="users/update">
+
+        <label for="cinsiyet">Cinsiyetinizi seciniz: </label> <br>
+
+        <input type="radio" name="cinsiyet" id="erkek">
+        <label for="erkek">Erkek</label> &nbsp; &nbsp; &nbsp;
+
+        <input type="radio" name="cinsiyet" id="kadin">
+        <label for="kadin">Kadin</label> &nbsp; &nbsp; &nbsp;
+
+        <input type="radio" name="cinsiyet" id="diger">
+        <label for="diger">Belirtmek Istemiyorum</label> <br> <br>
+
+        <label for="girisTarihi">Ise Giris Tarihinizi Giriniz</label><br>
+        <input type="datetime-local" id="girisTarihi"> <br> <br>
+
+        <label for="hobby">Hobilerinizi Seciniz:</label> <br>
+
+        <input type="checkbox" name="hobby" id="hobby">
+        <label for="hoby">Seyahat Etmek</label> &nbsp; &nbsp;
+
+        <input type="checkbox" name="hobby" id="hobby">
+        <label for="hobby">Doga Yuruyusu Yapmak</label> &nbsp; &nbsp;
+
+        <input type="checkbox" name="hobby" id="hobby">
+        <label for="hobby">Kendimi Gelistirmek</label> <br> <br>
+
+        <label for="renk">Sevdiginiz Renk</label> <br>
+
+        <input type="color" name="" id="renk"> <br> <br>
+
+        <label for="aralik">Bir Aralik Seciniz</label> <br>
+        <input type="range" step="10" id="aralik"> <br> <br>
+
+        <label for="saat">Giris saatinizi seciniz</label> <br>
+        <input type="time" id="saat"> <br> <br>
+
+        <label for="dosya">Resumenizi yukleyin</label>
+        <input type="file" id="dosya"> <br> <br>
+
+        <select name="sehir" id="">
+            <option value="">Dogum Yeriniz</option>
+            <option value="1">Kocaeli</option>
+            <option value="2">Ardahan</option>
+            <option value="3">Nigde</option>
+            <option value="4">Trabzon</option>
+
+        </select> <br> <br>
+
+        <label for="">Gorus ve Onerilerinizi Yaziniz</label> <br>
+        <textarea name="" id="" cols="50" rows="15"></textarea> <br> <br>
+
+        <input type="button" value="Buton">
+        <input type="submit" id="Gonder">
+        <input type="reset" id="Temizle">
+
+        <!--  Shift + Alt + A Bir ifadeyi yoruma almak icin kullanilir -->
+        <!-- ya da <!tiretire yaptiimizda yoruma almis oluyoruz-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
